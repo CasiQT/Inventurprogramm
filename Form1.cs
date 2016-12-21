@@ -260,6 +260,7 @@ namespace WindowsFormsApplication3
                 verarbeitet[i, 2] = mdeSepariert[i, 1]; // Artikelnummer
                 verarbeitet[i, 3] = mdeSepariert[i, 2]; // Menge
                 verarbeitet[i, 4] = mdeSepariert[i, 3]; // Gebinde
+                verarbeitet[i, 4] = verarbeitet[i, 4].ToString().Substring(0, 10); // auf 10 stellen kürzen
                 verarbeitet[i, 5] = mdeSepariert[i, 4]; // Einheit
                 verarbeitet[i, 6] = mdeSepariert[i, 5]; // Zaehler1
                 verarbeitet[i, 7] = mdeSepariert[i, 6]; // Zaehler2
@@ -288,7 +289,7 @@ namespace WindowsFormsApplication3
                 + "   "
                 + String.Format("{0, 8}", verarbeitet[i, 2].ToString())
                 + "   "
-                + String.Format("{0, 10}", "  _______ ")
+                + String.Format("{0, 10}", verarbeitet[i, 4].ToString())
                 + "  "
                 + String.Format("{0, 10}", verarbeitet[i, 3].ToString().TrimStart('0'))
                 + "     "
@@ -748,7 +749,7 @@ namespace WindowsFormsApplication3
         {
             //Kopfzeile
             //string tabHeadString = " Pos.  | Artikel  |   Anzahl   |            Artikelname\r\n \r\n";
-            string tabHeadString = " Pos.  | Artikel  | Korrektur |   Anzahl   |            Artikelname\r\n \r\n";
+            string tabHeadString = " Pos.  | Artikel  |    VPE    |   Anzahl   |            Artikelname\r\n \r\n";
             return tabHeadString;
         }
 

@@ -219,3 +219,15 @@ oswinv97017.txt;128;46000 ;Ikea Gang 26                  ;A.Berroth ;K. Anlauf ;
 Programm wurde gestartet: 21.12.2016 - 12:26;;;;;;;
 Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
 oswinv97023.txt;150;27000 ;Gang 5 links                  ;Dauser    ;Eiberger  ;21.12.2016 - 12:29;
+
+Programm wurde gestartet: 21.12.2016 - 12:43;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97021.txt;427;43001 ;Regal 4-6 Duni\Spender        ;S. Steinemann;C. Erhard ;21.12.2016 - 12:44;
+
+Programm wurde gestartet: 21.12.2016 - 12:53;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97018.txt;105;52006 ;Non Food Raeumle              ;Grubmueller Franziska;Feifel Susanne;21.12.2016 - 12:54;
+
+Programm wurde gestartet: 21.12.2016 - 12:59;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97014.txt;107;52005 ;Non Food Raeumle              ;Grubmueller Franziska;Feifel Susanne;21.12.2016 - 12:59;
