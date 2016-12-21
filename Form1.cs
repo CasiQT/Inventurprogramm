@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
 
@@ -33,7 +32,7 @@ namespace WindowsFormsApplication3
 
             //Logdatei vorbereiten            
             //File falls nicht vorhanden erstellen
-            StreamWriter sw = new StreamWriter(filePfadLog, true, Encoding.UTF8);
+            StreamWriter sw = new StreamWriter(filePfadLog, true, Encoding.Default);
             //Introzeilen generieren
             //Zeile1
             sw.Write("\r\nProgramm wurde gestartet: " + DateTime.Now.ToString("dd.MM.yyyy - HH:mm") + ";");
@@ -76,7 +75,6 @@ namespace WindowsFormsApplication3
         string printStringTrenner = "";
         string[] printStringContentArr;
         string printStringContent = "";
-        //string printStringFusszeile = "";
         int printZeile = 0;
         int printZeilenGesamt;
         bool headerGedruckt = false;
@@ -104,7 +102,7 @@ namespace WindowsFormsApplication3
                 try
                 {
                     //InvArt in Arbeitsspeicher geladen.
-                    string[] lines = File.ReadAllLines(openFileDialog1.FileName, Encoding.UTF8);
+                    string[] lines = File.ReadAllLines(openFileDialog1.FileName, Encoding.Default);
 
                     invArtSepariert = new string[lines.Length, 10];
 
@@ -220,7 +218,7 @@ namespace WindowsFormsApplication3
             try
             {
                 //MDE-TXT in Arbeitsspeicher laden.
-                lines = File.ReadAllLines(openFileDialog2.FileName, Encoding.UTF8);
+                lines = File.ReadAllLines(openFileDialog2.FileName, Encoding.Default);
             }
             catch (Exception ex)
             {
@@ -337,7 +335,7 @@ namespace WindowsFormsApplication3
             dataGridView1.Rows.Add(row1);
 
             //Reihe in ..\verarbeitet.txt einfügen
-            StreamWriter sw = new StreamWriter(filePfadLog, true, Encoding.UTF8);
+            StreamWriter sw = new StreamWriter(filePfadLog, true, Encoding.Default);
 
             sw.Write(Path.GetFileNameWithoutExtension(textBox2.Text) + ".txt;");
             sw.Write(lines.Length.ToString() + ";");
@@ -465,7 +463,7 @@ namespace WindowsFormsApplication3
         //        try
         //        {
         //            //Streamwriter initialisieren
-        //            StreamWriter sw = new StreamWriter(filePfad, true, Encoding.UTF8);
+        //            StreamWriter sw = new StreamWriter(filePfad, true, Encoding.default);
 
         //            for (int i = 0; i < dgv1StrArr.GetLength(0); i++)
         //            {
@@ -721,6 +719,7 @@ namespace WindowsFormsApplication3
             textBoxStdPrinter.Text = printSettings.PrinterName.ToString();
         }
 
+        // Function für Trennlinien
         private string trennlinienForPrint(int x)
         {
             string rueckgabe = "";
