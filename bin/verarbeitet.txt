@@ -1,0 +1,201 @@
+﻿Programm wurde gestartet: 19.12.2016 - 14:04;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 14:04;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 14:08;
+
+Programm wurde gestartet: 19.12.2016 - 14:39;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 14:39;
+
+Programm wurde gestartet: 19.12.2016 - 14:45;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 14:46;
+
+Programm wurde gestartet: 19.12.2016 - 14:48;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 14:48;
+
+Programm wurde gestartet: 19.12.2016 - 14:54;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 14:54;
+
+Programm wurde gestartet: 19.12.2016 - 14:59;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 14:59;
+
+Programm wurde gestartet: 19.12.2016 - 15:36;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 15:36;
+
+Programm wurde gestartet: 19.12.2016 - 15:37;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 15:38;
+oswinv97078.txt;248;19003 ;Duni Bolsius Eika             ;Eiberger Monique;Eiberger  ;19.12.2016 - 15:39;
+
+Programm wurde gestartet: 19.12.2016 - 15:41;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97078.txt;248;19003 ;Duni Bolsius Eika             ;Eiberger Monique;Eiberger  ;19.12.2016 - 15:41;
+
+Programm wurde gestartet: 19.12.2016 - 15:46;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97078.txt;248;19003 ;Duni Bolsius Eika             ;Eiberger Monique;Eiberger  ;19.12.2016 - 15:46;
+
+Programm wurde gestartet: 19.12.2016 - 15:47;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97078.txt;248;19003 ;Duni Bolsius Eika             ;Eiberger Monique;Eiberger  ;19.12.2016 - 15:47;
+
+Programm wurde gestartet: 19.12.2016 - 15:59;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97078.txt;248;19003 ;Duni Bolsius Eika             ;Eiberger Monique;Eiberger  ;19.12.2016 - 15:59;
+
+Programm wurde gestartet: 19.12.2016 - 16:07;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97078.txt;248;19003 ;Duni Bolsius Eika             ;Eiberger Monique;Eiberger  ;19.12.2016 - 16:07;
+
+Programm wurde gestartet: 19.12.2016 - 16:12;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97078.txt;248;19003 ;Duni Bolsius Eika             ;Eiberger Monique;Eiberger  ;19.12.2016 - 16:13;
+oswinv97010.txt;668;59003 ;AAOS80                        ;Mittmann  ;Vogt      ;19.12.2016 - 16:13;
+oswinv97010.txt;668;59003 ;AAOS80                        ;Mittmann  ;Vogt      ;19.12.2016 - 16:16;
+
+Programm wurde gestartet: 19.12.2016 - 16:19;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97010.txt;668;59003 ;AAOS80                        ;Mittmann  ;Vogt      ;19.12.2016 - 16:20;
+oswinv97021.txt;427;43001 ;Regal 4-6 Duni\Spender        ;S. Steinemann;C. Erhard ;19.12.2016 - 16:21;
+
+Programm wurde gestartet: 19.12.2016 - 16:22;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97066.txt;281;28002 ;cuc oben birkmann helios      ;hanisch juergen;hommel kathrin;19.12.2016 - 16:22;
+oswinv97072.txt;169;18001 ;c+c non food seltmann         ;tobias brenner;lisa dworsky;19.12.2016 - 16:22;
+
+Programm wurde gestartet: 19.12.2016 - 16:24;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97010.txt;668;59003 ;AAOS80                        ;Mittmann  ;Vogt      ;19.12.2016 - 16:25;
+oswinv97078.txt;248;19003 ;Duni Bolsius Eika             ;Eiberger Monique;Eiberger  ;19.12.2016 - 16:26;
+oswinv97107.txt;174;19005 ; Spirituosen Whiskey          ;Eiberger Monique;Cascio Maria;19.12.2016 - 16:26;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;19.12.2016 - 16:26;
+
+Programm wurde gestartet: 19.12.2016 - 16:39;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97010.txt;668;59003 ;AAOS80                        ;Mittmann  ;Vogt      ;19.12.2016 - 16:39;
+
+Programm wurde gestartet: 19.12.2016 - 16:43;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97010.txt;668;59003 ;AAOS80                        ;Mittmann  ;Vogt      ;19.12.2016 - 16:44;
+
+Programm wurde gestartet: 19.12.2016 - 16:47;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97010.txt;668;59003 ;AAOS80                        ;Mittmann  ;Vogt      ;19.12.2016 - 16:47;
+
+Programm wurde gestartet: 19.12.2016 - 16:51;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97010.txt;668;59003 ;AAOS80                        ;Mittmann  ;Vogt      ;19.12.2016 - 16:52;
+
+Programm wurde gestartet: 20.12.2016 - 10:25;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;20.12.2016 - 10:26;
+
+Programm wurde gestartet: 20.12.2016 - 10:27;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;20.12.2016 - 10:27;
+
+Programm wurde gestartet: 20.12.2016 - 10:28;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;20.12.2016 - 10:28;
+
+Programm wurde gestartet: 20.12.2016 - 10:42;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97081.txt;30;26003 ;Duni                          ;Streicher ;Vogt      ;20.12.2016 - 10:42;
+
+Programm wurde gestartet: 20.12.2016 - 11:03;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 11:06;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 11:08;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 11:38;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 13:40;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 13:50;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 13:53;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 13:59;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 14:16;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 14:19;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 14:34;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 14:37;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 14:47;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 14:52;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 14:54;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 14:55;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:21;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:24;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:24;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:25;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:25;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:26;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:28;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:34;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:36;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:38;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:40;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:41;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:43;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:44;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 20.12.2016 - 15:45;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;

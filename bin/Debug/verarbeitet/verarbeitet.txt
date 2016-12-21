@@ -1,0 +1,2 @@
+﻿Zeile;Dateiname;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+1;oswinv97001;52001 ;Non Food Raeumle              ;Grubmueller Franziska;Feifel Susanne;12:38;
