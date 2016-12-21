@@ -82,7 +82,7 @@ namespace WindowsFormsApplication3
         bool firstPageRdy;
         Font monoFont = new Font("Courier New", 9);
 
-        //Artikelstamm auswählen
+        //Inv-Art auswählen
         private void button1_Click(object sender, EventArgs e)
         {
             DialogResult result1 = openFileDialog1.ShowDialog();
@@ -199,6 +199,7 @@ namespace WindowsFormsApplication3
             catch (Exception ex)
             {
                 statusBox.AppendText("Es ist ein Problem aufgetreten: " + ex.Message + "\r\n");
+                return;
             }
         }
 
@@ -255,16 +256,16 @@ namespace WindowsFormsApplication3
             for (int i = 0; i < lines.Length; i++)
             {
                 // verarbeitet Array füllen
-                verarbeitet[i, 0] = String.Format("{0, 5}", (i+1).ToString()); //Position fortlaufend
-                verarbeitet[i, 1] = mdeSepariert[i, 0]; // Position aus MDE-TXT
-                verarbeitet[i, 2] = mdeSepariert[i, 1]; // Artikelnummer
-                verarbeitet[i, 3] = mdeSepariert[i, 2]; // Menge
-                verarbeitet[i, 4] = mdeSepariert[i, 3]; // Gebinde
-                verarbeitet[i, 4] = verarbeitet[i, 4].ToString().Substring(0, 10); // auf 10 stellen kürzen
-                verarbeitet[i, 5] = mdeSepariert[i, 4]; // Einheit
-                verarbeitet[i, 6] = mdeSepariert[i, 5]; // Zaehler1
-                verarbeitet[i, 7] = mdeSepariert[i, 6]; // Zaehler2
-                verarbeitet[i, 8] = mdeSepariert[i, 7]; // Bereich
+                verarbeitet[i, 0] = String.Format("{0, 5}", (i+1).ToString());      //Position fortlaufend
+                verarbeitet[i, 1] = mdeSepariert[i, 0];                             // Position aus MDE-TXT
+                verarbeitet[i, 2] = mdeSepariert[i, 1];                             // Artikelnummer
+                verarbeitet[i, 3] = mdeSepariert[i, 2];                             // Menge
+                verarbeitet[i, 4] = mdeSepariert[i, 3];                             // Gebinde
+                verarbeitet[i, 4] = verarbeitet[i, 4].ToString().Substring(0, 10);  // auf 10 stellen kürzen
+                verarbeitet[i, 5] = mdeSepariert[i, 4];                             // Einheit
+                verarbeitet[i, 6] = mdeSepariert[i, 5];                             // Zaehler1
+                verarbeitet[i, 7] = mdeSepariert[i, 6];                             // Zaehler2
+                verarbeitet[i, 8] = mdeSepariert[i, 7];                             // Bereich
                 verarbeitet[i, 9] = "Kein Artikelname vorhanden"; // Artikelname (später aus Inv-Art)
 
                 int j = 0;
@@ -287,13 +288,13 @@ namespace WindowsFormsApplication3
                 // Artikel wird also trotzdem angedruckt. 
                 printStringLines[i] += verarbeitet[(i), 0]
                 + "   "
-                + String.Format("{0, 8}", verarbeitet[i, 2].ToString())
+                + String.Format("{0, 8}", verarbeitet[i, 2].ToString()) // Artikelnummer
                 + "   "
-                + String.Format("{0, 10}", verarbeitet[i, 4].ToString())
-                + "  "
-                + String.Format("{0, 10}", verarbeitet[i, 3].ToString().TrimStart('0'))
-                + "     "
-                + String.Format("{0, -40}", verarbeitet[i, 9].ToString())
+                + String.Format("{0, 10}", verarbeitet[i, 3].ToString().TrimStart('0')) // Anzahl
+                + "   "
+                + String.Format("{0, 10}", verarbeitet[i, 4].ToString()) // VPE
+                + "    "
+                + String.Format("{0, -40}", verarbeitet[i, 9].ToString()) // Artikelname
                 + "\r\n";
 
                 //Progressbar
@@ -411,13 +412,6 @@ namespace WindowsFormsApplication3
             }
         }
 
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            // Nur für Statusbox
-            statusBox.AppendText("Button4 clicked\r\n");
-        }
-
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
@@ -433,78 +427,7 @@ namespace WindowsFormsApplication3
             Environment.Exit(0);
         }
 
-        //Datagridview automatisch speichern
-                
-        
-        //private void btnSave_Click(object sender, EventArgs e)
-        //{
-        //    //wenn das datagridview nicht leer ist
-        //    if (dataGridView1.RowCount > 0)
-        //    {
-        //        //Filename mit Pfad
-        //        string filePfad = @"..\verarbeitet.txt";
-
-        //        // neues 2D Array 7 Spalten (eine für Nummerierung und eine für Uhrzeit)
-        //        string[,] dgv1StrArr = new string[dataGridView1.RowCount + 1, 8];
-
-        //        //Kopfzeile füllen
-        //        dgv1StrArr[0, 0] = "Zeile";
-        //        dgv1StrArr[0, 1] = "Dateiname";
-        //        dgv1StrArr[0, 2] = "Anzahl Positionen";
-        //        dgv1StrArr[0, 3] = "Zaehlposition";
-        //        dgv1StrArr[0, 4] = "Bereich";
-        //        dgv1StrArr[0, 5] = "Zaehler1";
-        //        dgv1StrArr[0, 6] = "Zaehler2";
-        //        dgv1StrArr[0, 7] = "Uhrzeit";
-
-        //        // stringArray füllen
-        //        for (int i = 1; i <= dataGridView1.RowCount; i++)
-        //        {
-        //            dgv1StrArr[i, 0] = i.ToString();
-        //            dgv1StrArr[i, 1] = dataGridView1.Rows[(i - 1)].Cells[0].Value.ToString();
-        //            dgv1StrArr[i, 2] = dataGridView1.Rows[(i - 1)].Cells[1].Value.ToString();
-        //            dgv1StrArr[i, 3] = dataGridView1.Rows[(i - 1)].Cells[2].Value.ToString();
-        //            dgv1StrArr[i, 4] = dataGridView1.Rows[(i - 1)].Cells[3].Value.ToString();
-        //            dgv1StrArr[i, 5] = dataGridView1.Rows[(i - 1)].Cells[4].Value.ToString();
-        //            dgv1StrArr[i, 6] = dataGridView1.Rows[(i - 1)].Cells[5].Value.ToString();
-        //            dgv1StrArr[i, 7] = dataGridView1.Rows[(i - 1)].Cells[6].Value.ToString();
-        //        }
-
-        //        //Datei beschreiben
-        //        try
-        //        {
-        //            //Streamwriter initialisieren
-        //            StreamWriter sw = new StreamWriter(filePfad, true, Encoding.default);
-
-        //            for (int i = 0; i < dgv1StrArr.GetLength(0); i++)
-        //            {
-        //                sw.Write(dgv1StrArr[i, 0] + ";");
-        //                sw.Write(dgv1StrArr[i, 1] + ";");
-        //                sw.Write(dgv1StrArr[i, 2] + ";");
-        //                sw.Write(dgv1StrArr[i, 3] + ";");
-        //                sw.Write(dgv1StrArr[i, 4] + ";");
-        //                sw.Write(dgv1StrArr[i, 5] + ";");
-        //                sw.Write(dgv1StrArr[i, 6] + ";");
-        //                sw.Write(dgv1StrArr[i, 7] + ";");
-        //                sw.Write("\r\n");
-        //            }
-        //            //StreamWriter schließen
-        //            sw.Close();
-        //            statusBox.AppendText("Datei erfolgreich gespeichert: ..\\verarbeitet.txt\r\n");
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            statusBox.AppendText("Es gab ein Problem: " + ex.Message + "\r\n");
-        //        }
-        //    }
-        //    else
-        //    {
-        //        statusBox.AppendText("Keine Infos zum Speichern vorhanden\r\n");
-        //    }
-        //}
-
         //Suchknopf
-
         private void srchBtn_Click(object sender, EventArgs e)
         {
             //bei neuer Suche erstmal alles abmarkieren
@@ -748,8 +671,7 @@ namespace WindowsFormsApplication3
         private string tabellenHeadString()
         {
             //Kopfzeile
-            //string tabHeadString = " Pos.  | Artikel  |   Anzahl   |            Artikelname\r\n \r\n";
-            string tabHeadString = " Pos.  | Artikel  |    VPE    |   Anzahl   |            Artikelname\r\n \r\n";
+            string tabHeadString = " Pos.  | Artikel  |   Anzahl   |    VPE    |            Artikelname\r\n \r\n";
             return tabHeadString;
         }
 
