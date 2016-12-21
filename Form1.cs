@@ -83,6 +83,7 @@ namespace WindowsFormsApplication3
         bool headerGedruckt = false;
         string[] printStringLines;
         bool firstPageRdy;
+        Font monoFont = new Font("Courier New", 9);
 
         //Artikelstamm auswählen
         private void button1_Click(object sender, EventArgs e)
@@ -635,7 +636,7 @@ namespace WindowsFormsApplication3
 
                     printStringContent += printStringLines[i];
                 }
-                e.Graphics.DrawString(printStringContent, new Font(FontFamily.GenericMonospace, 9), Brushes.Black, 50, 310);
+                e.Graphics.DrawString(printStringContent, monoFont, Brushes.Black, 50, 310);
                 e.HasMorePages = false;
             } else //mehr als 50
             {
@@ -665,7 +666,7 @@ namespace WindowsFormsApplication3
                     //form2.statusBox2.AppendText("printZeile sollte hier auf 49 sein. Ist: " + printZeile + "\r\n");
                     
                     //1. Seite fertigdrucken und content resetten.
-                    e.Graphics.DrawString(printStringContent, new Font(FontFamily.GenericMonospace, 9), Brushes.Black, 50, 310);
+                    e.Graphics.DrawString(printStringContent, monoFont, Brushes.Black, 50, 310);
                     printStringContent = "";
                     e.HasMorePages = true;
                 }
@@ -688,7 +689,7 @@ namespace WindowsFormsApplication3
                             printStringContent += printStringLines[printZeile];
                             printZeile++;
                         }
-                        e.Graphics.DrawString(printStringContent, new Font(FontFamily.GenericMonospace, 9), Brushes.Black, 50, 30);
+                        e.Graphics.DrawString(printStringContent, monoFont, Brushes.Black, 50, 30);
                         e.HasMorePages = true;
                     }
                     //wenn noch weniger oder gleich als 75 Datensätze kommen dann wird der rest hier ausgegeben auf letzter Seite
@@ -707,7 +708,7 @@ namespace WindowsFormsApplication3
                             printStringContent += printStringLines[printZeile];
                             printZeile++;
                         }
-                        e.Graphics.DrawString(printStringContent, new Font(FontFamily.GenericMonospace, 9), Brushes.Black, 50, 30);
+                        e.Graphics.DrawString(printStringContent, monoFont, Brushes.Black, 50, 30);
                         e.HasMorePages = false;
                     }
                 }

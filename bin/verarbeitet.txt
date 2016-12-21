@@ -199,3 +199,7 @@ Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
 
 Programm wurde gestartet: 20.12.2016 - 15:45;;;;;;;
 Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 21.12.2016 - 10:37;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97001.txt;101;52001 ;Non Food Raeumle              ;Grubmueller Franziska;Feifel Susanne;21.12.2016 - 10:37;
