@@ -207,3 +207,15 @@ oswinv97001.txt;101;52001 ;Non Food Raeumle              ;Grubmueller Franziska;
 Programm wurde gestartet: 21.12.2016 - 11:36;;;;;;;
 Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
 oswinv97024.txt;137;52007 ;Non Food Raeumle              ;Grubmueller Franziska;Feifel Susanne;21.12.2016 - 11:37;
+
+Programm wurde gestartet: 21.12.2016 - 11:43;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97013.txt;120;53001 ;CuC Hochzone  75-01-10 Duni   ;Winkler   ;Winkler   ;21.12.2016 - 11:44;
+
+Programm wurde gestartet: 21.12.2016 - 12:23;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97017.txt;128;46000 ;Ikea Gang 26                  ;A.Berroth ;K. Anlauf ;21.12.2016 - 12:24;
+
+Programm wurde gestartet: 21.12.2016 - 12:26;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97023.txt;150;27000 ;Gang 5 links                  ;Dauser    ;Eiberger  ;21.12.2016 - 12:29;

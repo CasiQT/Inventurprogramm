@@ -244,8 +244,8 @@ namespace WindowsFormsApplication3
                 }
             }
 
-            // New Array zur Ausgabe
-            String[,] verarbeitet = new string[lines.Length, 8];
+            // New Array zur Ausgabe (MDE-TXT Spalten + 1 für position)
+            String[,] verarbeitet = new string[lines.Length, 10];
             
             // 1D Stringarray mit größe MDE-TXT Lines.Length
             printStringLines = new string[lines.Length];
@@ -254,36 +254,46 @@ namespace WindowsFormsApplication3
             // Array einmal MDE Positionenzahl durchlaufen
             for (int i = 0; i < lines.Length; i++)
             {
-                // index in neues array eintragen, jeweils "i"
-                verarbeitet[i, 0] = String.Format("{0, 5}", (i+1).ToString());
+                // verarbeitet Array füllen
+                verarbeitet[i, 0] = String.Format("{0, 5}", (i+1).ToString()); //Position fortlaufend
+                verarbeitet[i, 1] = mdeSepariert[i, 0]; // Position aus MDE-TXT
+                verarbeitet[i, 2] = mdeSepariert[i, 1]; // Artikelnummer
+                verarbeitet[i, 3] = mdeSepariert[i, 2]; // Menge
+                verarbeitet[i, 4] = mdeSepariert[i, 3]; // Gebinde
+                verarbeitet[i, 5] = mdeSepariert[i, 4]; // Einheit
+                verarbeitet[i, 6] = mdeSepariert[i, 5]; // Zaehler1
+                verarbeitet[i, 7] = mdeSepariert[i, 6]; // Zaehler2
+                verarbeitet[i, 8] = mdeSepariert[i, 7]; // Bereich
+                verarbeitet[i, 9] = "Kein Artikelname vorhanden"; // Artikelname (später aus Inv-Art)
 
                 int j = 0;
 
-                // While Schleife maximal 1x invArt-Anzahl durchlaufen
+                // While Schleife. Maximal 1x invArt-Anzahl durchlaufen
                 while (j < invArtSepariert.GetLength(0))
                 {
                     // Falls MDE Pos 2 (Artikelnummer) der Inv-Art Pos 1 entspricht (auch Artikelnummer) ..
                     // .. dann Daten in "verarbeitet"-Array eintragen. Außerdem j inkrementieren und schleife verlassen.
                     if (mdeSepariert[i, 1] == invArtSepariert[j, 0])
                     {
-                        verarbeitet[i, 1] = mdeSepariert[i, 1];
-                        verarbeitet[i, 2] = invArtSepariert[j, 1];
-                        
-                        printStringLines[i] += verarbeitet[(i), 0]
-                            + "   "
-                            + String.Format("{0, 8}", mdeSepariert[i, 1].ToString())
-                            + "   "
-                            + String.Format("{0, 10}", "  _______ ")
-                            + "   "
-                            + String.Format("{0, 10}", mdeSepariert[i, 2].ToString().TrimStart('0'))
-                            + "    "
-                            + String.Format("{0, -40}", invArtSepariert[j, 1].ToString())
-                            + "\r\n";
-
+                        verarbeitet[i, 9] = invArtSepariert[j, 1];
                         break;
                     }
                     j++;
                 }
+
+                // Printstring wird aufgebaut aus verarbeitet Array. Falls eine Einstimmung in der While-Schleife gefunden wurde, 
+                // wurde verarbeitet[i, 9] == "Kein Artikelname vorhanden" ersetzt durch den Artikelnamen. Andernfalls nicht. 
+                // Artikel wird also trotzdem angedruckt. 
+                printStringLines[i] += verarbeitet[(i), 0]
+                + "   "
+                + String.Format("{0, 8}", verarbeitet[i, 2].ToString())
+                + "   "
+                + String.Format("{0, 10}", "  _______ ")
+                + "  "
+                + String.Format("{0, 10}", verarbeitet[i, 3].ToString().TrimStart('0'))
+                + "     "
+                + String.Format("{0, -40}", verarbeitet[i, 9].ToString())
+                + "\r\n";
 
                 //Progressbar
                 if ((progressValue+10) < (i / ((float)lines.Length / 100)) && progressValue < 90)
