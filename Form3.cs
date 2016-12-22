@@ -33,11 +33,11 @@ namespace WindowsFormsApplication3
                 \par Der aktuelle Pfad wird oben im Programm angezeigt. Sollte dieser nicht korrekt sein, bitte das Programm schlie\'dfen, verschieben und erneut starten damit der Pfad korrekt ist.
                 \par 
                 \par \b 2.)\b0  Den richtigen Standarddrucker ausw\'e4hlen. Auf diesem wird sp\'e4ter gedruckt. Falls der Standarddrucker ge\'e4ndert wird w\'e4hrend das Programm l\'e4uft, 
-                \par muss der Drucker per klick auf 'aktualisieren' neu gesetzt werden.
+                \par muss der Drucker per Klick auf 'aktualisieren' neu gesetzt werden.
                 \par 
                 \par \b 3.) \b0 Es muss eine Inv-Art ausgew\'e4hlt werden. Der Speicherort spielt keine Rolle. Die Datei kann also auch Zentral abgelegt werden. 
                 \par 
-                \par \b 4.)\b0  Die zu verarbeitende MDE-TXT Datei ausw\'e4hlen: entweder per klick auf 'MDE-TXT ausw\'e4hlen' oder 'letzte MDE-TXT'. 
+                \par \b 4.)\b0  Die zu verarbeitende MDE-TXT Datei ausw\'e4hlen: entweder per Klick auf 'MDE-TXT ausw\'e4hlen' oder 'letzte MDE-TXT'. 
                 \par Beim ersteren muss eine Datei vom Benutzer ausgew\'e4hlt werden. Bei der zweiten M\'f6glichkeit wird automatisch die letzte gespeicherte MDE-Textdatei ausgew\'e4hlt. 
                 \par 
                 \par \b 5.)\b0  Mit Klick auf 'Verarbeiten' wird die Datei intern verarbeitet, in jeweils den Ordner '..\\Erledigt' und '..\\Original' verschoben und die Aktion wird in der Datei '..\\verarbeitet.txt' Protokolliert. 
