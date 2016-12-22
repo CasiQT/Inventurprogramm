@@ -1,0 +1,6 @@
+
+Programm wurde gestartet: 22.12.2016 - 15:23;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 22.12.2016 - 15:47;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
