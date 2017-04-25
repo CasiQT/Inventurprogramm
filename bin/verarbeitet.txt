@@ -4,3 +4,7 @@ Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
 
 Programm wurde gestartet: 22.12.2016 - 15:47;;;;;;;
 Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 02.01.2017 - 09:00;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+oswinv97072.txt;169;18001 ;c+c non food seltmann         ;tobias brenner;lisa dworsky;02.01.2017 - 09:00;

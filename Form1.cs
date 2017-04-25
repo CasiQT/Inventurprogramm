@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Text.RegularExpressions;
 
 /* Wichtig: 
- * move und copy der MDE-TXT wieder aktivieren. Wurde zum debuggen der Druckfunktion auskommentiert!
+ * ...
 */
 
 namespace WindowsFormsApplication3
