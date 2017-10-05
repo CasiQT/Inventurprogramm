@@ -39,3 +39,14 @@ C:\Users\pstickel\Desktop\Inventurtool_16_12_18\Inventurtool\WindowsFormsApplica
 C:\Users\pstickel\Desktop\Inventurtool_16_12_18\Inventurtool\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
 C:\Users\pstickel\Desktop\Inventurtool_16_12_18\Inventurtool\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
 C:\Users\pstickel\Desktop\Inventurtool_16_12_18\Inventurtool\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form3.resources
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\bin\Debug\WindowsFormsApplication3.exe.config
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\bin\Debug\WindowsFormsApplication3.exe
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\bin\Debug\WindowsFormsApplication3.pdb
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.Form1.resources
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.Form2.resources
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.Form3.resources
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.exe
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.pdb
