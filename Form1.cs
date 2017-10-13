@@ -177,7 +177,7 @@ namespace WindowsFormsApplication3
 
                 if (myFile != null)
                 {
-                    // Dateipfad und name in Feld ablegen zur Anzeige
+                    // Dateipfad und Name in Feld ablegen zur Anzeige
                     textBox2.Text = directory.ToString() + "\\" + myFile.ToString();
 
                     // Status für Statusbox
@@ -397,8 +397,8 @@ namespace WindowsFormsApplication3
             try
             {
                 File.Copy(textBox2.Text, @"..\Originale\" + Path.GetFileName(textBox2.Text));
-                File.Move(textBox2.Text, @"..\Erledigt\" + Path.GetFileName(textBox2.Text));
-                statusBox.AppendText("Datei verschoben nach ..\\Erledigt und \\Original \r\n");
+                File.Copy(textBox2.Text, @"..\Erledigt\" + Path.GetFileName(textBox2.Text));
+                statusBox.AppendText("Datei kopiert nach ..\\Erledigt und \\Original und Attribut gesetzt. \r\n");
             }
             catch (Exception ex)
             {

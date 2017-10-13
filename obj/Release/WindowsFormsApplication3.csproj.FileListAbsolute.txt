@@ -60,3 +60,14 @@ C:\Users\pstickel\Desktop\Inventurtool\WindowsFormsApplication3\WindowsFormsAppl
 C:\Users\pstickel\Desktop\Inventurtool\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.Form3.resources
 C:\Users\pstickel\Desktop\Inventurtool\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.Properties.Resources.resources
 C:\Users\pstickel\Desktop\Inventurtool\WindowsFormsApplication3\WindowsFormsApplication3\obj\Release\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\bin\Release\WindowsFormsApplication3.exe.config
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\bin\Release\WindowsFormsApplication3.exe
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\bin\Release\WindowsFormsApplication3.pdb
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Release\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Release\WindowsFormsApplication3.Form1.resources
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Release\WindowsFormsApplication3.Form2.resources
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Release\WindowsFormsApplication3.Form3.resources
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Release\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Release\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Release\WindowsFormsApplication3.exe
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Release\WindowsFormsApplication3.pdb
