@@ -78,7 +78,7 @@
             // 
             this.Headline.AutoSize = true;
             this.Headline.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Headline.Location = new System.Drawing.Point(45, 9);
+            this.Headline.Location = new System.Drawing.Point(45, 29);
             this.Headline.Name = "Headline";
             this.Headline.Size = new System.Drawing.Size(337, 24);
             this.Headline.TabIndex = 0;
@@ -91,9 +91,10 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DimGray;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.SteelBlue;
             this.button1.Location = new System.Drawing.Point(55, 27);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(324, 23);
@@ -113,19 +114,19 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Location = new System.Drawing.Point(55, 56);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(324, 20);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "Dateipfad hier";
+            this.textBox1.Text = " Path";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(472, 84);
+            this.label3.Location = new System.Drawing.Point(472, 104);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(119, 13);
             this.label3.TabIndex = 6;
@@ -138,10 +139,10 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DimGray;
+            this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.Enabled = false;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.ForeColor = System.Drawing.Color.SteelBlue;
             this.button2.Location = new System.Drawing.Point(55, 29);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(159, 23);
@@ -161,17 +162,19 @@
             // 
             // textBox2
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Location = new System.Drawing.Point(55, 58);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(0);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(324, 20);
             this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "aktuelle Datei";
+            this.textBox2.Text = " File";
             // 
             // progressBar1
             // 
+            this.progressBar1.BackColor = System.Drawing.SystemColors.Window;
             this.progressBar1.Location = new System.Drawing.Point(87, 58);
             this.progressBar1.MarqueeAnimationSpeed = 10;
             this.progressBar1.Name = "progressBar1";
@@ -194,7 +197,7 @@
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(475, 100);
+            this.dataGridView1.Location = new System.Drawing.Point(475, 120);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 18;
@@ -204,14 +207,16 @@
             // 
             // statusStrip1
             // 
+            this.statusStrip1.BackColor = System.Drawing.Color.Transparent;
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 600);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 636);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1188, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1204, 22);
             this.statusStrip1.TabIndex = 10;
             this.statusStrip1.Text = "statusStrip1";
+            this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
             // 
             // toolStripStatusLabel1
             // 
@@ -225,7 +230,7 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Location = new System.Drawing.Point(23, 86);
+            this.groupBox1.Location = new System.Drawing.Point(23, 106);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(401, 98);
             this.groupBox1.TabIndex = 11;
@@ -238,7 +243,7 @@
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Location = new System.Drawing.Point(23, 200);
+            this.groupBox2.Location = new System.Drawing.Point(23, 220);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(401, 126);
             this.groupBox2.TabIndex = 12;
@@ -247,10 +252,10 @@
             // 
             // button2_2
             // 
-            this.button2_2.BackColor = System.Drawing.Color.DimGray;
+            this.button2_2.BackColor = System.Drawing.Color.Transparent;
             this.button2_2.Enabled = false;
             this.button2_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2_2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2_2.ForeColor = System.Drawing.Color.SteelBlue;
             this.button2_2.Location = new System.Drawing.Point(220, 29);
             this.button2_2.Name = "button2_2";
             this.button2_2.Size = new System.Drawing.Size(159, 23);
@@ -261,10 +266,10 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.DimGray;
+            this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.Enabled = false;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.SystemColors.Control;
+            this.button3.ForeColor = System.Drawing.Color.SteelBlue;
             this.button3.Location = new System.Drawing.Point(87, 29);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(155, 23);
@@ -280,7 +285,7 @@
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.checkBox1);
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox3.Location = new System.Drawing.Point(23, 351);
+            this.groupBox3.Location = new System.Drawing.Point(23, 371);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(401, 104);
             this.groupBox3.TabIndex = 13;
@@ -304,7 +309,7 @@
             this.groupBox4.Controls.Add(this.label8);
             this.groupBox4.Controls.Add(this.textBoxStdPrinter);
             this.groupBox4.Controls.Add(this.btnPrint);
-            this.groupBox4.Location = new System.Drawing.Point(23, 479);
+            this.groupBox4.Location = new System.Drawing.Point(23, 499);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(401, 105);
             this.groupBox4.TabIndex = 13;
@@ -313,9 +318,9 @@
             // 
             // stdPrntBtnNeu
             // 
-            this.stdPrntBtnNeu.BackColor = System.Drawing.Color.DimGray;
+            this.stdPrntBtnNeu.BackColor = System.Drawing.Color.Transparent;
             this.stdPrntBtnNeu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.stdPrntBtnNeu.ForeColor = System.Drawing.SystemColors.Control;
+            this.stdPrntBtnNeu.ForeColor = System.Drawing.Color.SteelBlue;
             this.stdPrntBtnNeu.Location = new System.Drawing.Point(306, 17);
             this.stdPrntBtnNeu.Margin = new System.Windows.Forms.Padding(2);
             this.stdPrntBtnNeu.Name = "stdPrntBtnNeu";
@@ -337,22 +342,22 @@
             // 
             // textBoxStdPrinter
             // 
-            this.textBoxStdPrinter.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBoxStdPrinter.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxStdPrinter.Location = new System.Drawing.Point(97, 17);
             this.textBoxStdPrinter.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxStdPrinter.Multiline = true;
             this.textBoxStdPrinter.Name = "textBoxStdPrinter";
             this.textBoxStdPrinter.ReadOnly = true;
-            this.textBoxStdPrinter.Size = new System.Drawing.Size(206, 18);
+            this.textBoxStdPrinter.Size = new System.Drawing.Size(206, 23);
             this.textBoxStdPrinter.TabIndex = 13;
-            this.textBoxStdPrinter.Text = "Aktueller Drucker: ";
+            this.textBoxStdPrinter.Text = " Drucker: ";
             // 
             // btnPrint
             // 
-            this.btnPrint.BackColor = System.Drawing.Color.DimGray;
+            this.btnPrint.BackColor = System.Drawing.Color.Transparent;
             this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrint.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnPrint.Location = new System.Drawing.Point(97, 40);
+            this.btnPrint.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnPrint.Location = new System.Drawing.Point(97, 45);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(133, 23);
             this.btnPrint.TabIndex = 9;
@@ -364,7 +369,7 @@
             // 
             this.statusBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.statusBox.Enabled = false;
-            this.statusBox.Location = new System.Drawing.Point(475, 497);
+            this.statusBox.Location = new System.Drawing.Point(475, 517);
             this.statusBox.Multiline = true;
             this.statusBox.Name = "statusBox";
             this.statusBox.Size = new System.Drawing.Size(697, 87);
@@ -373,17 +378,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(475, 481);
+            this.label2.Location = new System.Drawing.Point(475, 501);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 15;
             this.label2.Text = "Status";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox3
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(174, 43);
+            this.textBox3.Location = new System.Drawing.Point(174, 63);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(798, 13);
             this.textBox3.TabIndex = 16;
@@ -391,7 +397,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(46, 43);
+            this.label7.Location = new System.Drawing.Point(46, 63);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(122, 13);
             this.label7.TabIndex = 17;
@@ -399,10 +405,10 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.DimGray;
+            this.button5.BackColor = System.Drawing.Color.Transparent;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.SystemColors.Control;
-            this.button5.Location = new System.Drawing.Point(1042, 12);
+            this.button5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.button5.Location = new System.Drawing.Point(1042, 32);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 23);
             this.button5.TabIndex = 18;
@@ -412,10 +418,11 @@
             // 
             // srchBtn
             // 
-            this.srchBtn.BackColor = System.Drawing.Color.DimGray;
+            this.srchBtn.BackColor = System.Drawing.Color.Transparent;
             this.srchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.srchBtn.ForeColor = System.Drawing.SystemColors.Control;
-            this.srchBtn.Location = new System.Drawing.Point(681, 434);
+            this.srchBtn.ForeColor = System.Drawing.Color.SteelBlue;
+            this.srchBtn.Location = new System.Drawing.Point(681, 454);
+            this.srchBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 3);
             this.srchBtn.Name = "srchBtn";
             this.srchBtn.Size = new System.Drawing.Size(34, 23);
             this.srchBtn.TabIndex = 19;
@@ -426,7 +433,7 @@
             // textBox5
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Location = new System.Drawing.Point(613, 436);
+            this.textBox5.Location = new System.Drawing.Point(613, 456);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(63, 20);
             this.textBox5.TabIndex = 20;
@@ -436,9 +443,10 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(475, 436);
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Location = new System.Drawing.Point(475, 459);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(116, 20);
+            this.textBox6.Size = new System.Drawing.Size(116, 13);
             this.textBox6.TabIndex = 21;
             this.textBox6.Text = "Zaehlposition suchen: ";
             // 
@@ -448,10 +456,10 @@
             // 
             // btnHelp
             // 
-            this.btnHelp.BackColor = System.Drawing.Color.DimGray;
+            this.btnHelp.BackColor = System.Drawing.Color.Transparent;
             this.btnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHelp.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnHelp.Location = new System.Drawing.Point(1042, 41);
+            this.btnHelp.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnHelp.Location = new System.Drawing.Point(1042, 61);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(130, 23);
             this.btnHelp.TabIndex = 22;
@@ -464,7 +472,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1188, 622);
+            this.ClientSize = new System.Drawing.Size(1204, 658);
             this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
@@ -482,6 +490,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.Headline);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1204, 658);
             this.Name = "Form1";

@@ -310,7 +310,8 @@ namespace WindowsFormsApplication3
                     //form2.statusBox2.AppendText("Progressbar wurde erhöht auf: " + progressValue + "\r\n");
                 }
             }
-
+           
+            //Progressbar auf 100 ;)
             progressBar1.Value = 100;
 
             //Verarbeitungszeit wird gestoppt
@@ -684,6 +685,16 @@ namespace WindowsFormsApplication3
                 Form3 form3 = new Form3();
                 form3.Show();
             }
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
