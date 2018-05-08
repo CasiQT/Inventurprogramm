@@ -50,3 +50,4 @@ C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsA
 C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
 C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.exe
 C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\pstickel\Documents\GitHubRepos\Inventurprogramm\obj\Debug\WindowsFormsApplication3.csproj.CoreCompileInputs.cache

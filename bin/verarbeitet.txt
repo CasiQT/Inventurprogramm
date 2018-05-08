@@ -26,3 +26,30 @@ Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
 
 Programm wurde gestartet: 07.05.2018 - 17:03;;;;;;;
 Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 07.05.2018 - 17:10;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 07.05.2018 - 17:12;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 08.05.2018 - 13:21;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 08.05.2018 - 13:22;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 08.05.2018 - 13:22;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 08.05.2018 - 13:23;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 08.05.2018 - 13:24;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 08.05.2018 - 13:32;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;
+
+Programm wurde gestartet: 08.05.2018 - 13:34;;;;;;;
+Dateiname;Anzahl Positionen;Zaehlposition;Bereich;Zaehler1;Zaehler2;Uhrzeit;

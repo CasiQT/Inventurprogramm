@@ -48,6 +48,11 @@ namespace WindowsFormsApplication3
             \par R\'fcckfragen an: Patrick Stickel - OMEGA SORG GmbH - patrick.stickel@omega-sorg.de\b0\f1\fs17 
             \par }";
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
