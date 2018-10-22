@@ -62,3 +62,4 @@ C:\Users\pstickel\Documents\GitHub\Inventurprogramm\obj\Debug\WindowsFormsApplic
 C:\Users\pstickel\Documents\GitHub\Inventurprogramm\obj\Debug\WindowsFormsApplication3.csproj.CoreCompileInputs.cache
 C:\Users\pstickel\Documents\GitHub\Inventurprogramm\obj\Debug\WindowsFormsApplication3.exe
 C:\Users\pstickel\Documents\GitHub\Inventurprogramm\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\pstickel\Documents\GitHub\Inventurprogramm\obj\Debug\WindowsFormsApplication3.csprojAssemblyReference.cache
